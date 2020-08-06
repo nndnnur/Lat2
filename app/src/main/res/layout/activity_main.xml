@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background=" #6699ff">
+
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:paddingTop="105dp"
+        android:textSize="23dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:paddingTop="70dp"
+        android:textSize="19dp"
+        android:text="Nama"/>
+
+    <EditText
+        android:id="@+id/edit_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:paddingTop="180dp"
+        android:textSize="23dp"
+        />
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="50dp"
+       android:paddingTop="150dp"
+       android:text="Alamat"
+       android:textSize="19dp"/>
+    <EditText
+        android:id="@+id/kampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:paddingTop="260dp"
+        android:textSize="23dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:paddingTop="230dp"
+        android:text="Kampus"
+        android:textSize="19dp"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/keluarga"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="133dp"
+        android:src="@drawable/keluarga"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="217dp"
+        android:src="@drawable/keluarga"
+        />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/kampus"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="174dp"
+        android:layout_below="@+id/kampus"/>
+</RelativeLayout>
+
